@@ -16,7 +16,7 @@ import static org.mockito.Mockito.when;
  * Test configuration that provides mock beans for the integration test
  */
 @TestConfiguration
-@Profile("test")
+@Profile("dev-sql")
 class TestConfig {
 
     @Value("${test.str}")

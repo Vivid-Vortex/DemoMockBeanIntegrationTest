@@ -14,7 +14,7 @@ import static org.mockito.Mockito.when;
 
 @SpringBootTest
 @Import(TestConfig.class)
-@ActiveProfiles("test")
+@ActiveProfiles("dev-sql")
 class AIntegrationTest {
 
 	@Autowired
